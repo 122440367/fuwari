@@ -1,9 +1,18 @@
 import type { AUTO_MODE, DARK_MODE, LIGHT_MODE } from "@constants/constants";
+import type { string } from "astro:schema";
 
 export type SiteConfig = {
 	title: string;
 	subtitle: string;
-
+	background: {
+		enable: boolean;
+		src: string;
+		position?: "top" | "center" | "bottom";
+		size?: "cover" | "contain" | "auto";
+		repeat?: "no-repeat" | "repeat" | "repeat-x" | "repeat-y";
+		attachment?: "fixed" | "scroll" | "local";
+		opacity?: number;
+	};
 	lang:
 		| "en"
 		| "zh_CN"

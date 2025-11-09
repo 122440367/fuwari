@@ -139,14 +139,21 @@
 .collapsed {
     height: var(--collapsedHeight);
 }
-
-.custom-md spoiler {
-  @apply bg-[var(--codeblock-bg)] hover:bg-transparent px-1 py-0.5 overflow-hidden rounded-md transition-all duration-150;
-
-  &:not(:hover) {
-    color: var(--codeblock-bg);
-    * {
-        color: var(--codeblock-bg);
-    }
-  }
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://eopfapi.2b2x.cn/pic?img=ua');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+  
+  /* 确保覆盖整个视口 */
+  min-height: 100vh;
+  min-width: 100vw;
 }
