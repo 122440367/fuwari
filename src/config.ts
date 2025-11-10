@@ -53,16 +53,22 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		// {
+		// 	name: "GitHub",
+		// 	url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
 		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
+			name: "网盘",
+			url: "https://pan.472988.xyz/s/bVcQ", // Replace with the actual URL
+			external: true,
 		},
+		
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/111.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/111.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Le",
 	bio: "Roam is not built in a day.",
 	links: [
