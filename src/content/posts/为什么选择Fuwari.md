@@ -1,7 +1,7 @@
 ---
 title: 为什么选择fuwari
 published: 2025-11-10
-description: '这是一个测试页面'
+description: '我们为什么要选择建立这个博客'
 image: 'https://blog.lecirtus.com/_astro/111.B35qqdyE_Z15ktKm.webp'
 tags: [markdown,博客]
 category: '文章'
