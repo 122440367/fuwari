@@ -2,7 +2,7 @@
 title: azure学生注册
 published: 2025-11-11
 description: 'azure学生每年有100美元的免费额度且无需绑卡，在2025年如何简单地注册azure学生呢'
-image: 'https://pan.472988.xyz/f/wotQ/%E5%89%AA%E8%B4%B4%E6%9D%BF%201762856094642.png'
+image: 'https://pan.lecirtus.com/d/CF/CF/Public/a1eb6c0d-d397-451b-8692-cc13bc6b7f15_%E5%89%AA%E8%B4%B4%E6%9D%BF%201762856094642.png?sign=bUC54V7gY9_ZGfgRfcgb3PWo5yIHnnIKtHIbJN41mVo=:0'
 tags: [azure,学生,github]
 category: '文章'
 draft: false 
@@ -27,7 +27,7 @@ lang: ''
 
 一路下一步，最终你会看到你进入了azure的portal
 
-<img src="https://pan.472988.xyz/f/XwI6/QQ%E5%9B%BE%E7%89%8720251111175038.png" style="zoom:80%;" />
+<img src="https://pan.lecirtus.com/d/CF/CF/Public/26855149-2739-45b8-8370-4aec2c0baced_QQ%E5%9B%BE%E7%89%8720251111175038.png?sign=wZls-iABUPaJC1Xqw80wUy4pYq9mYbtshgLZgo7-vNE=:0" style="zoom:80%;" />
 
 遗憾的是，作者并没有成功进入，微软给出的理由是”没有资格使用”
 
@@ -45,15 +45,15 @@ lang: ''
 
 点击 student developer pack 
 
-<img src="https://pan.472988.xyz/f/Zefa/%E5%89%AA%E8%B4%B4%E6%9D%BF%201762855522011.png" style="zoom:80%;" />
+<img src="https://pan.lecirtus.com/d/CF/CF/Public/%E7%B4%A0%E6%9D%90/cf53899d-285e-426e-a2d8-0fd106afb9e1_%E5%89%AA%E8%B4%B4%E6%9D%BF%201762855522011.png?sign=0hSQUmjKIlXnvpdDf6HLtbdN2YCTF7QvegR4XCZq664=:0" style="zoom:80%;" />
 
 往下滑，找到Azure
 
-<img src="https://pan.472988.xyz/f/Bbug/%E5%89%AA%E8%B4%B4%E6%9D%BF%201762855710164.png" style="zoom:80%;" />
+<img src="https://pan.lecirtus.com/d/CF/CF/Public/%E7%B4%A0%E6%9D%90/4c50216d-1cfc-4e0e-90dd-16a1697e7eb9_%E5%89%AA%E8%B4%B4%E6%9D%BF%201762855710164.png?sign=0yhBlhUBjNkla-yjiwoV6GowouOmX8tNadqqVRSUkHw=:0" style="zoom:80%;" />
 
 这说明我们可以通过github来进行认证！
 
 点击蓝色的超链接，点击get started，然后选择 “使用github登录”，首次会弹出授权界面并要求绑定你的微软账号。然后就能在验证学术地位的界面看到方式有一个“github学生包”的选项，选择这一项，填写地址等信息就完成注册了！
 
-<img src="https://pan.472988.xyz/f/wotQ/%E5%89%AA%E8%B4%B4%E6%9D%BF%201762856094642.png" style="zoom:80%;" />
+<img src="https://pan.lecirtus.com/d/CF/CF/Public/a1eb6c0d-d397-451b-8692-cc13bc6b7f15_%E5%89%AA%E8%B4%B4%E6%9D%BF%201762856094642.png?sign=bUC54V7gY9_ZGfgRfcgb3PWo5yIHnnIKtHIbJN41mVo=:0" style="zoom:80%;" />
 
