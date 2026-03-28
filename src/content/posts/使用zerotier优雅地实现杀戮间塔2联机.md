@@ -1,3 +1,16 @@
+---
+title: ## 使用zerotier优雅地实现杀戮间塔2联机
+published: 2026-3-28
+description: '使用zerotier优雅地实现杀戮间塔2联机'
+image: 'https://img.moehu.org/pic.php'
+tags: []
+category: '文章'
+draft: false 
+lang: ''
+---
+
+
+
 ## 使用zerotier优雅地实现杀戮间塔2联机
 
 杀戮尖塔2在3月6日开启了公开测试，但是联机频繁掉线一直是一个很令人头疼的问题，本文旨在介绍一种通过ip直连的方式实现更稳定（或许）的联机方式。
