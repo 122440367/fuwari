@@ -3,7 +3,7 @@ title: 使用zerotier优雅地实现杀戮间塔2联机
 published: 2026-3-28
 description: '使用zerotier优雅地实现杀戮间塔2联机'
 image: 'https://img.moehu.org/pic.php'
-tags: []
+tags: [杀戮尖塔,联机,zerotier,内网穿透]
 category: '文章'
 draft: false 
 lang: ''
