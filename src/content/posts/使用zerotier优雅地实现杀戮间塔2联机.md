@@ -1,5 +1,5 @@
 ---
-title: ## 使用zerotier优雅地实现杀戮间塔2联机
+title: 使用zerotier优雅地实现杀戮间塔2联机
 published: 2026-3-28
 description: '使用zerotier优雅地实现杀戮间塔2联机'
 image: 'https://img.moehu.org/pic.php'
