@@ -1,6 +1,6 @@
 ---
 title: 使用zerotier优雅地实现杀戮间塔2联机
-published: 2025-11-11T00:00:00.000Z
+published: 2025-3-28T18:55:00.000Z
 description: '使用zerotier优雅地实现杀戮间塔2联机'
 image: 'https://img.moehu.org/pic.php'
 tags: [杀戮尖塔,联机,zerotier,内网穿透]
@@ -35,7 +35,7 @@ lang: ''
 
 下载zerotier，安装结束后找到右下角小托盘，右键单击找到 **join new network...** 输入刚才的授权码。
 
-![img](https://huaqitechnologycoltd-my.sharepoint.com/personal/le_lecirtus_com/_layouts/15/download.aspx?UniqueId=d3822e3d-953b-4b64-85ee-91bcf7b0f507&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIzYjhkZDQzNy01YjU0LTQ4MDgtYTFlNi1kMmYyM2I3M2Y5MTYiLCJhcHBfZGlzcGxheW5hbWUiOiJvcGVubGlzdCIsIm5hbWVpZCI6IjRkNTM5MzcxLWQ0NGEtNGYzMC1hMGY4LWIwMDFkNjNlYzkyOUA1M2MxNTk1OC0wMWM5LTQxYzQtYmNiOS1jNWVhYjE0YmQ3OTciLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaHVhcWl0ZWNobm9sb2d5Y29sdGQtbXkuc2hhcmVwb2ludC5jb21ANTNjMTU5NTgtMDFjOS00MWM0LWJjYjktYzVlYWIxNGJkNzk3IiwiZXhwIjoiMTc3NDY5MzExMyJ9.CkAKDGVudHJhX2NsYWltcxIwQ01TeW5zNEdFQUFhRmpoT0xVWmZSM2d3TVVWNVIwVTFiVmx6VFdoQlFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMaE48SgrYY_EAUaDTQwLjEyNi4zNS4xNTMqLERreGtIT1ZvemlrQjYzYzB3V3ZWOWhXYTVEd0JJUzBmZjM0MWowaWVBM1E9MJ8BOAFCEKIEXpxzcABwBJvvbgPri_lKEGhhc2hlZHByb29mdG9rZW56ATG6ARxhbGxmaWxlcy53cml0ZSBhbGxmaWxlcy5yZWFkyAEB.5lLYR6oHZydIxnzHIFiYePUEfffcCH2I9eo9INOcRKU&ApiVersion=2.0)
+![img](https://pan.lecirtus.com/d/OD/Public/%E7%B4%A0%E6%9D%90/1.png?sign=Clju68nVhoGBw_BXKZ6Vw-zFqVzCkDSBfX8aWwO6D4Y=:0)
 
 加入成功后会创建一个 zerotier one 虚拟网卡
 
@@ -43,7 +43,7 @@ lang: ''
 
 账号所有者进入network 管理界面，会发现有新的设备，点击设备进入该设备的管理界面，对需要授权的设备点击 **device authorized**。除此之外，还可以对其设置设备名称和描述
 
-![img](https://huaqitechnologycoltd-my.sharepoint.com/personal/le_lecirtus_com/_layouts/15/download.aspx?UniqueId=d0897e0c-b165-47ee-bb5a-7024350dd1a4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIzYjhkZDQzNy01YjU0LTQ4MDgtYTFlNi1kMmYyM2I3M2Y5MTYiLCJhcHBfZGlzcGxheW5hbWUiOiJvcGVubGlzdCIsIm5hbWVpZCI6IjRkNTM5MzcxLWQ0NGEtNGYzMC1hMGY4LWIwMDFkNjNlYzkyOUA1M2MxNTk1OC0wMWM5LTQxYzQtYmNiOS1jNWVhYjE0YmQ3OTciLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaHVhcWl0ZWNobm9sb2d5Y29sdGQtbXkuc2hhcmVwb2ludC5jb21ANTNjMTU5NTgtMDFjOS00MWM0LWJjYjktYzVlYWIxNGJkNzk3IiwiZXhwIjoiMTc3NDY5MzI2OSJ9.CkAKDGVudHJhX2NsYWltcxIwQ01TeW5zNEdFQUFhRmpoT0xVWmZSM2d3TVVWNVIwVTFiVmx6VFdoQlFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNLI5JmsrYY_EAUaDDQwLjEyNi4zNS44OCosVkFvdTJkWWd1a2NOaEYybWlGYjF6VHkvZEZ0YWhJaklieloveTNidXExTT0wnwE4AUIQogRewq0QAHANP3WmAnvYcUoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBHGFsbGZpbGVzLndyaXRlIGFsbGZpbGVzLnJlYWTIAQE.h8UGB0sjEoR3xRR1vN-Q9mUqpVEz8aT8qXjmdiaP3Kk&ApiVersion=2.0)
+![img](https://pan.lecirtus.com/d/OD/Public/%E7%B4%A0%E6%9D%90/2.png?sign=vkFiJffKigf9Dc2q58eeBDXlyupj6Z-f1hIEhhf7E-Q=:0)
 
 #### 4.下载安装联机mod
 
@@ -61,7 +61,7 @@ lang: ''
 
 按 **win + R** ，键入 %appdata%\SlayTheSpire2\steam 回车 ，点开对应你账号的文件夹（一串数字）
 
-![img](https://huaqitechnologycoltd-my.sharepoint.com/personal/le_lecirtus_com/_layouts/15/download.aspx?UniqueId=e4d02f86-b829-496a-ac31-eb716f792e43&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIzYjhkZDQzNy01YjU0LTQ4MDgtYTFlNi1kMmYyM2I3M2Y5MTYiLCJhcHBfZGlzcGxheW5hbWUiOiJvcGVubGlzdCIsIm5hbWVpZCI6IjRkNTM5MzcxLWQ0NGEtNGYzMC1hMGY4LWIwMDFkNjNlYzkyOUA1M2MxNTk1OC0wMWM5LTQxYzQtYmNiOS1jNWVhYjE0YmQ3OTciLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaHVhcWl0ZWNobm9sb2d5Y29sdGQtbXkuc2hhcmVwb2ludC5jb21ANTNjMTU5NTgtMDFjOS00MWM0LWJjYjktYzVlYWIxNGJkNzk3IiwiZXhwIjoiMTc3NDY5NDU2NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ01TeW5zNEdFQUFhRmpoT0xVWmZSM2d3TVVWNVIwVTFiVmx6VFdoQlFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMz7yeyMroY_EAUaDTIwLjE5MC4xNjMuOTYqLFkwTlBuMW1OOTJlYlRVYzJkM0FLRzcwV1FsVFBueFRuQ1kzc0R4cmdoTVU9MJ8BOAFCEKIEX_9bUABwDT9wXeQt8sNKEGhhc2hlZHByb29mdG9rZW56ATG6ARxhbGxmaWxlcy53cml0ZSBhbGxmaWxlcy5yZWFkyAEB.bwXRuz2SOCCHcg5LHX3XH6vMaJ65tlmbRjF46HQeVuk&ApiVersion=2.0)
+![img](https://pan.lecirtus.com/d/OD/Public/%E7%B4%A0%E6%9D%90/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-28%20174000.png?sign=xQbJkJ9VYLhO0M42fJWkZe_tDe0870i14t2e9l01dp4=:0)
 
 该文件夹下的profile1、profile2、profile3是原版存档，复制想替换的存档，点进 **modded** 文件夹，进入存档文件夹（profile1 or profile2 or profile3）粘贴（覆盖）。
 
