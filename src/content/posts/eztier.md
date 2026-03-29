@@ -1,3 +1,14 @@
+---
+title: easytier的安装及使用
+published: 2026-3-29T11:40:00.000Z
+description: 'easytier的安装及使用'
+image: 'https://img.moehu.org/pic.php'
+tags: [easytier,内网穿透]
+category: '文章'
+draft: false 
+lang: ''
+---
+
 前言：本文参考自https://www.xiaoheihe.cn/app/bbs/link/1eaf70264ce8
 
 上一期我们介绍了如何使用zerotier进行内网穿透进而实现杀戮尖塔2的局域网联机，然而实际上效果并未达到预期，仍然经常出现高ping和掉线的情况。为了解决这一问题，我们采用了通过easytier搭建中转服务器的方式来最大可能地降低延迟。本文分服务端和客户端配置两部分，请按需阅读。
