@@ -1,5 +1,5 @@
 ---
-title: 使用zerotier优雅地实现杀戮间塔2联机
+title: 使用zerotier优雅地实现杀戮尖塔2联机
 published: 2026-3-28T18:55:00.000Z
 description: '使用zerotier优雅地实现杀戮间塔2联机'
 image: 'https://img.moehu.org/pic.php'
@@ -11,7 +11,7 @@ lang: ''
 
 
 
-## 使用zerotier优雅地实现杀戮间塔2联机
+## 使用zerotier优雅地实现杀戮尖塔2联机
 
 杀戮尖塔2在3月6日开启了公开测试，但是联机频繁掉线一直是一个很令人头疼的问题，本文旨在介绍一种通过ip直连的方式实现更稳定（或许）的联机方式。
 
@@ -19,9 +19,9 @@ lang: ''
 
 原材料准备：
 
-内网穿透：zerotier（zerotier.com）
+内网穿透：zerotier（ zerotier.com ）
 
-联机mod：SlayTheSpire2.LAN.Multiplayer（https://www.nexusmods.com/slaythespire2/mods/3）
+联机mod：SlayTheSpire2.LAN.Multiplayer（ https://www.nexusmods.com/slaythespire2/mods/3 ）
 
 使用方法：
 
@@ -29,7 +29,7 @@ lang: ''
 
 #### 1.创建账号
 
-前往zerotier官网（zerotier.com）,点击 **start free** 注册一个账号，以便后续的授权等操作,注册成功后会进入 network 界面，可以留意一下网段。完成后会给出一个授权码，我们可以将此授权码复制妥存。
+前往zerotier官网（ zerotier.com ）,点击 **start free** 注册一个账号，以便后续的授权等操作,注册成功后会进入 network 界面，可以留意一下网段。完成后会给出一个授权码，我们可以将此授权码复制妥存。
 
 #### 2.下载与配置zerotier
 
