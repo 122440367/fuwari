@@ -60,7 +60,7 @@ export const navBarConfig: NavBarConfig = {
 		// },
 		{
 			name: "网盘",
-			url: "https://pan.472988.xyz/s/bVcQ", // Replace with the actual URL
+			url: "https://pan.lecirtus.com", // Replace with the actual URL
 			external: true,
 		},
 		
