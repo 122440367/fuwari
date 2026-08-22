@@ -42,3 +42,24 @@ export function getDir(path: string): string {
 export function url(path: string) {
 	return joinUrl("", import.meta.env.BASE_URL, path);
 }
+
+const IMAGE_FILE_REGEX = /\.(jpe?g|png|webp|gif|avif|svg|bmp|ico)$/i;
+
+/**
+ * Random image APIs (e.g. https://img.moehu.org/pic.php) return a different
+ * image per request, but the browser caches by URL, so every <img> sharing
+ * the same URL on a page shows the same picture. Append a seed derived from
+ * the post so each post gets its own image, while the same post keeps a
+ * stable cover across pages and visits.
+ */
+export function seedRandomImage(src: string, seed: string): string {
+	try {
+		if (!/^https?:\/\//i.test(src)) return src;
+		const { pathname, search } = new URL(src);
+		if (IMAGE_FILE_REGEX.test(pathname)) return src;
+		if (search.includes("_r=")) return src;
+		return `${src}${search ? "&" : "?"}_r=${encodeURIComponent(seed)}`;
+	} catch {
+		return src;
+	}
+}
